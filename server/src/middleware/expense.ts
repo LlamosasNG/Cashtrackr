@@ -1,6 +1,6 @@
+import Expense from '@/models/Expense'
 import { NextFunction, Request, Response } from 'express'
 import { body, param, validationResult } from 'express-validator'
-import Expense from '../models/Expense'
 
 declare global {
   namespace Express {

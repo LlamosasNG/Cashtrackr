@@ -1,5 +1,5 @@
+import Expense from '@/models/Expense'
 import { Request, Response } from 'express'
-import Expense from '../models/Expense'
 
 export class ExpenseController {
   static createExpense = async (req: Request, res: Response) => {

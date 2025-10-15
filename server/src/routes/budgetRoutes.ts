@@ -1,6 +1,6 @@
+import { BudgetController } from '@/controllers/BudgetController'
+import { ExpenseController } from '@/controllers/ExpenseController'
 import { Router } from 'express'
-import { BudgetController } from '../controllers/BudgetController'
-import { ExpenseController } from '../controllers/ExpenseController'
 import {
   validateBudgetExists,
   validateBudgetId,

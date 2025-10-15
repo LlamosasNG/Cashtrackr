@@ -1,6 +1,6 @@
+import Budget from '@models/Budget'
+import Expense from '@models/Expense'
 import type { Request, Response } from 'express'
-import Budget from '../models/Budget'
-import Expense from '../models/Expense'
 
 export class BudgetController {
   static createBudget = async (req: Request, res: Response) => {
